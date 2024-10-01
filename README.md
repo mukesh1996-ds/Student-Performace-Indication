@@ -15,7 +15,7 @@ Activate the virtual environment:
 
 - On **Windows**:
   ```bash
- conda activate venv/
+  conda activate venv/
   ```
 
 ## 2. Installing Requirements
