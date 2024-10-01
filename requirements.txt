@@ -6,4 +6,5 @@ notebook
 catboost
 scikit-learn
 xgboost
+dill
 -e .
