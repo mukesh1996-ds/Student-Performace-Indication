@@ -8,19 +8,14 @@ This guide will walk you through setting up the Python environment for this proj
 First, create a virtual environment to keep project dependencies isolated.
 
 ```bash
-python3 -m venv env
+conda create -p venv python==3.8 -y
 ```
 
 Activate the virtual environment:
 
 - On **Windows**:
   ```bash
-  .\env\Scripts\activate
-  ```
-
-- On **Linux/Mac**:
-  ```bash
-  source env/bin/activate
+  conda activate venv/
   ```
 
 ## 2. Installing Requirements
